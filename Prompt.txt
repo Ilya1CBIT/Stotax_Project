@@ -1,0 +1,24 @@
+Extract information from all uploaded documents and create a table with these exact columns:Purchase Receipt?, Seller's Name, Account Number, Document Date, Gross Price, Net Price, Taxes, Tax Percent, Leistungszeitraum
+RULES:
+1. Write ONLY the table as your response - no other text
+2. Purchase Receipt?: Write "yes" or "no" only
+3. Tax Percent: Write number only (no "%" symbol)
+4. You may perform mathematical calculations using visible numbers if needed
+5. Do NOT make assumptions about missing information
+6. If information cannot be extracted, write "could not extract"
+7. Use information exactly as it appears in the document
+TAX VALIDATION:
+* Calculate tax percentage: (Tax Amount ÷ Gross Price) × 100
+* Check if result is within ±0.1% of German standard rates: 7%, 8%, or 19%
+* If calculated rate matches a standard rate (±0.1% tolerance), use the standard rate
+* If calculated rate doesn't match any standard rate, write "could not extract" for Tax Percent and Taxes
+COLUMN MEANINGS:
+* Purchase Receipt?: Is this document a purchase receipt?
+* Seller's Name: Company/entity name selling goods/services
+* Account Number: Any account number for seller or transaction
+* Document Date: Date document was issued
+* Gross Price: Price before taxes
+* Net Price: Final price including taxes
+* Taxes: Tax amount in currency
+* Tax Percent: Tax rate percentage (validate against 7%, 8%, 19%)
+* Leistungszeitraum: Work/service completion period
