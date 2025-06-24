@@ -331,6 +331,121 @@
       </AbstractStep>
       <AbstractStep z:Id="i35" i:type="ExecutedStep">
         <Childs />
+        <Id>70057b52-a409-46fc-9420-331702962887</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i36">
+            <PropertyName>DirPath</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>@"ExctractedPhotos"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i37">
+            <PropertyName>ListFilesOrCatalogs</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>lst_fileFolderPaths</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>1</SelectedOptionId>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Files.GetListFilesOrCatalogs</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i38" i:type="ExecutedStep">
+        <Childs>
+          <AbstractStep z:Id="i39" i:type="ExecutedStep">
+            <Childs />
+            <Id>98e837d6-b690-4640-ba7b-0b99bc8dd979</Id>
+            <Parent z:Ref="i38" />
+            <PropertyValues>
+              <PropertyValue z:Id="i40">
+                <PropertyName>IncomingString</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>folderPath</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i41">
+                <PropertyName>RegExpression</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>@"[^\\/]+$"</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i42">
+                <PropertyName>Result</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>folderName</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+              <PropertyValue z:Id="i43">
+                <PropertyName>ResultList</PropertyName>
+                <_dataType>Expression</_dataType>
+                <_expression>folderName</_expression>
+                <_screenShotBase64 i:nil="true" />
+                <_value i:nil="true" />
+                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+              </PropertyValue>
+            </PropertyValues>
+            <SelectedOptionId>1</SelectedOptionId>
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>Activities.Strings.RegEx</_activityFullName>
+          </AbstractStep>
+        </Childs>
+        <Id>ff9e9d9c-c61c-4aa3-af38-ab3d1d4d6f42</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i44">
+            <PropertyName>Collection</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>lst_fileFolderPaths</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i45">
+            <PropertyName>Iterator</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>folderPath</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i46">
+            <PropertyName>Counter</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression></_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.LoopForEach</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i47" i:type="ExecutedStep">
+        <Childs />
         <Id>6f040648-3e38-4509-9c79-6bc9f99f0129</Id>
         <Parent z:Ref="i2" />
         <PropertyValues />
@@ -357,7 +472,7 @@
   <Name>PdfConvert.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i36">
+    <Parameter z:Id="i48">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>NewParameter</Name>
@@ -373,19 +488,19 @@
   </PlatformVersion>
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params">
-    <d2p1:Variable z:Id="i37">
+    <d2p1:Variable z:Id="i49">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>lst_filePaths</d2p1:Name>
       <d2p1:TypeString>System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i38">
+    <d2p1:Variable z:Id="i50">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_extractedText</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i39">
+    <d2p1:Variable z:Id="i51">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_fileName</d2p1:Name>
