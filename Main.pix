@@ -11,6 +11,7 @@
         <Parent z:Ref="i2" />
         <PropertyValues />
         <SelectedOptionId i:nil="true" />
+        <IsCollapsed>false</IsCollapsed>
         <Text>Переменные</Text>
       </AbstractStep>
       <AbstractStep z:Id="i4" i:type="CommentStep">
@@ -19,6 +20,7 @@
         <Parent z:Ref="i2" />
         <PropertyValues />
         <SelectedOptionId i:nil="true" />
+        <IsCollapsed>false</IsCollapsed>
         <Text>Ошибки</Text>
       </AbstractStep>
       <AbstractStep z:Id="i5" i:type="ExecutedStep">
@@ -44,6 +46,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -56,6 +59,7 @@
         <Parent z:Ref="i2" />
         <PropertyValues />
         <SelectedOptionId i:nil="true" />
+        <IsCollapsed>false</IsCollapsed>
         <Text>Словари</Text>
       </AbstractStep>
       <AbstractStep z:Id="i9" i:type="ExecutedStep">
@@ -81,6 +85,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -110,6 +115,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -139,6 +145,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -151,6 +158,7 @@
         <Parent z:Ref="i2" />
         <PropertyValues />
         <SelectedOptionId i:nil="true" />
+        <IsCollapsed>false</IsCollapsed>
         <Text>Транзакции</Text>
       </AbstractStep>
       <AbstractStep z:Id="i19" i:type="ExecutedStep">
@@ -176,6 +184,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -205,6 +214,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -234,6 +244,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -263,6 +274,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -292,6 +304,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -304,6 +317,7 @@
         <Parent z:Ref="i2" />
         <PropertyValues />
         <SelectedOptionId i:nil="true" />
+        <IsCollapsed>false</IsCollapsed>
         <Text>Остальное</Text>
       </AbstractStep>
       <AbstractStep z:Id="i35" i:type="ExecutedStep">
@@ -329,6 +343,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -358,6 +373,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -387,6 +403,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -416,6 +433,7 @@
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -428,6 +446,7 @@
         <Parent z:Ref="i2" />
         <PropertyValues />
         <SelectedOptionId i:nil="true" />
+        <IsCollapsed>false</IsCollapsed>
         <Text>STATE Machine</Text>
       </AbstractStep>
       <AbstractStep z:Id="i48" i:type="ExecutedStep">
@@ -438,6 +457,7 @@
             <Parent z:Ref="i48" />
             <PropertyValues />
             <SelectedOptionId i:nil="true" />
+            <IsCollapsed>false</IsCollapsed>
             <Text>СОСТОЯНИЯ:
 STATE 1: Инициализация
 STATE 2: Создание транзакций и выполнение общих действий
@@ -455,6 +475,7 @@ STATE 5: Завершение</Text>
                     <Parent z:Ref="i51" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
+                    <IsCollapsed>false</IsCollapsed>
                     <Text>- Получение учетных данных
 
 Технические шаги:
@@ -472,6 +493,7 @@ STATE 5: Завершение</Text>
                             <Parent z:Ref="i54" />
                             <PropertyValues />
                             <SelectedOptionId i:nil="true" />
+                            <IsCollapsed>false</IsCollapsed>
                             <Text>Подготовка к запуску</Text>
                           </AbstractStep>
                           <AbstractStep z:Id="i56" i:type="ExecutedStep">
@@ -489,6 +511,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -524,6 +547,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -584,6 +608,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -595,6 +620,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i53" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -626,6 +652,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -662,6 +689,7 @@ STATE 5: Завершение</Text>
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -674,6 +702,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i53" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -685,6 +714,7 @@ STATE 5: Завершение</Text>
                     <Parent z:Ref="i51" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
                     <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
@@ -718,6 +748,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -729,6 +760,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i79" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -760,6 +792,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -771,6 +804,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i79" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -791,6 +825,7 @@ STATE 5: Завершение</Text>
                       </PropertyValue>
                     </PropertyValues>
                     <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
                     <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
@@ -802,6 +837,7 @@ STATE 5: Завершение</Text>
                 <Parent z:Ref="i50" />
                 <PropertyValues />
                 <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
@@ -816,6 +852,7 @@ STATE 5: Завершение</Text>
                     <Parent z:Ref="i89" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
+                    <IsCollapsed>false</IsCollapsed>
                     <Text>Наполнение пула транзакций для дальнейшей обработки и выполнение общих действий</Text>
                   </AbstractStep>
                   <AbstractStep z:Id="i91" i:type="ExecutedStep">
@@ -849,6 +886,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -904,6 +942,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -933,6 +972,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId>0</SelectedOptionId>
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -944,6 +984,7 @@ STATE 5: Завершение</Text>
                                 <Parent z:Ref="i93" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -956,6 +997,7 @@ STATE 5: Завершение</Text>
                                 <Parent z:Ref="i93" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -976,6 +1018,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1031,6 +1074,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -1043,6 +1087,7 @@ STATE 5: Завершение</Text>
                                     <Parent z:Ref="i112" />
                                     <PropertyValues />
                                     <SelectedOptionId i:nil="true" />
+                                    <IsCollapsed>false</IsCollapsed>
                                     <Text>Обязательный шаг добавления колонки "Статус" для таблицы dt_transactions</Text>
                                   </AbstractStep>
                                   <AbstractStep z:Id="i121" i:type="ExecutedStep">
@@ -1068,6 +1113,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Skip</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -1082,6 +1128,7 @@ STATE 5: Завершение</Text>
                                         <Parent z:Ref="i124" />
                                         <PropertyValues />
                                         <SelectedOptionId i:nil="true" />
+                                        <IsCollapsed>false</IsCollapsed>
                                         <Text>Если в пуле нет новых транзакций</Text>
                                       </AbstractStep>
                                       <AbstractStep z:Id="i126" i:type="ExecutedStep">
@@ -1101,6 +1148,7 @@ STATE 5: Завершение</Text>
                                               </PropertyValue>
                                             </PropertyValues>
                                             <SelectedOptionId>1</SelectedOptionId>
+                                            <AutoCloseMode>None</AutoCloseMode>
                                             <EnableStatus>true</EnableStatus>
                                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                             <RetryCount>-1</RetryCount>
@@ -1112,6 +1160,7 @@ STATE 5: Завершение</Text>
                                         <Parent z:Ref="i124" />
                                         <PropertyValues />
                                         <SelectedOptionId i:nil="true" />
+                                        <AutoCloseMode>None</AutoCloseMode>
                                         <EnableStatus>true</EnableStatus>
                                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                         <RetryCount>-1</RetryCount>
@@ -1143,6 +1192,7 @@ STATE 5: Завершение</Text>
                                               </PropertyValue>
                                             </PropertyValues>
                                             <SelectedOptionId i:nil="true" />
+                                            <AutoCloseMode>None</AutoCloseMode>
                                             <EnableStatus>true</EnableStatus>
                                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                             <RetryCount>-1</RetryCount>
@@ -1154,6 +1204,7 @@ STATE 5: Завершение</Text>
                                         <Parent z:Ref="i124" />
                                         <PropertyValues />
                                         <SelectedOptionId i:nil="true" />
+                                        <AutoCloseMode>None</AutoCloseMode>
                                         <EnableStatus>true</EnableStatus>
                                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                         <RetryCount>-1</RetryCount>
@@ -1174,6 +1225,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -1185,6 +1237,7 @@ STATE 5: Завершение</Text>
                                 <Parent z:Ref="i111" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -1197,6 +1250,7 @@ STATE 5: Завершение</Text>
                                 <Parent z:Ref="i111" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -1217,6 +1271,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1257,6 +1312,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1268,6 +1324,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i91" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -1299,6 +1356,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1328,6 +1386,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1364,6 +1423,7 @@ STATE 5: Завершение</Text>
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -1376,6 +1436,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i91" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -1387,6 +1448,7 @@ STATE 5: Завершение</Text>
                     <Parent z:Ref="i89" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
                     <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
@@ -1420,6 +1482,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1449,6 +1512,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1460,6 +1524,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i152" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -1491,6 +1556,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1511,6 +1577,7 @@ STATE 5: Завершение</Text>
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -1542,6 +1609,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1562,6 +1630,7 @@ STATE 5: Завершение</Text>
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -1593,6 +1662,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1604,6 +1674,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i152" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -1624,6 +1695,7 @@ STATE 5: Завершение</Text>
                       </PropertyValue>
                     </PropertyValues>
                     <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
                     <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
@@ -1644,6 +1716,7 @@ STATE 5: Завершение</Text>
                   </PropertyValue>
                 </PropertyValues>
                 <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
@@ -1658,6 +1731,7 @@ STATE 5: Завершение</Text>
                     <Parent z:Ref="i176" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
+                    <IsCollapsed>false</IsCollapsed>
                     <Text>Получение следующей транзакции для обработки</Text>
                   </AbstractStep>
                   <AbstractStep z:Id="i178" i:type="ExecutedStep">
@@ -1679,6 +1753,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1733,6 +1808,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -1744,6 +1820,7 @@ STATE 5: Завершение</Text>
                                 <Parent z:Ref="i182" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -1775,6 +1852,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -1786,6 +1864,7 @@ STATE 5: Завершение</Text>
                                 <Parent z:Ref="i182" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -1806,6 +1885,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1817,6 +1897,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i178" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -1848,6 +1929,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1877,6 +1959,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1913,6 +1996,7 @@ STATE 5: Завершение</Text>
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -1925,6 +2009,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i178" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -1936,6 +2021,7 @@ STATE 5: Завершение</Text>
                     <Parent z:Ref="i176" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
                     <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
@@ -1969,6 +2055,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -1980,6 +2067,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i207" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -2011,6 +2099,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2022,6 +2111,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i207" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -2042,6 +2132,7 @@ STATE 5: Завершение</Text>
                       </PropertyValue>
                     </PropertyValues>
                     <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
                     <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
@@ -2062,6 +2153,7 @@ STATE 5: Завершение</Text>
                   </PropertyValue>
                 </PropertyValues>
                 <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
@@ -2076,6 +2168,7 @@ STATE 5: Завершение</Text>
                     <Parent z:Ref="i218" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
+                    <IsCollapsed>false</IsCollapsed>
                     <Text>Вызов процесса обработки транзакции</Text>
                   </AbstractStep>
                   <AbstractStep z:Id="i220" i:type="ExecutedStep">
@@ -2105,6 +2198,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2126,6 +2220,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2191,6 +2286,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2220,6 +2316,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2241,6 +2338,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2252,6 +2350,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i220" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -2283,6 +2382,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2316,6 +2416,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -2345,6 +2446,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -2356,6 +2458,7 @@ STATE 5: Завершение</Text>
                                 <Parent z:Ref="i246" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -2387,6 +2490,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -2398,6 +2502,7 @@ STATE 5: Завершение</Text>
                                 <Parent z:Ref="i246" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -2418,6 +2523,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2454,6 +2560,7 @@ STATE 5: Завершение</Text>
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -2466,6 +2573,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i220" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -2477,6 +2585,7 @@ STATE 5: Завершение</Text>
                     <Parent z:Ref="i218" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
                     <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
@@ -2510,6 +2619,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2539,6 +2649,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2574,6 +2685,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2595,6 +2707,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId>0</SelectedOptionId>
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2624,6 +2737,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2635,6 +2749,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i263" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -2666,6 +2781,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2686,6 +2802,7 @@ STATE 5: Завершение</Text>
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -2717,6 +2834,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2746,6 +2864,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2775,6 +2894,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -2786,6 +2906,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i263" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -2806,6 +2927,7 @@ STATE 5: Завершение</Text>
                       </PropertyValue>
                     </PropertyValues>
                     <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
                     <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
@@ -2826,6 +2948,7 @@ STATE 5: Завершение</Text>
                   </PropertyValue>
                 </PropertyValues>
                 <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
@@ -2840,6 +2963,7 @@ STATE 5: Завершение</Text>
                     <Parent z:Ref="i297" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
+                    <IsCollapsed>false</IsCollapsed>
                     <Text>Опционально - возможно удаление данного условного оператора</Text>
                   </AbstractStep>
                   <AbstractStep z:Id="i299" i:type="ExecutedStep">
@@ -2889,6 +3013,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -2900,6 +3025,7 @@ STATE 5: Завершение</Text>
                                 <Parent z:Ref="i301" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -2931,6 +3057,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -2967,6 +3094,7 @@ STATE 5: Завершение</Text>
                                   </PropertyValue>
                                 </PropertyValues>
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -2979,6 +3107,7 @@ STATE 5: Завершение</Text>
                                 <Parent z:Ref="i301" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -2990,6 +3119,7 @@ STATE 5: Завершение</Text>
                             <Parent z:Ref="i300" />
                             <PropertyValues />
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -3001,6 +3131,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i299" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -3013,6 +3144,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i299" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -3033,6 +3165,7 @@ STATE 5: Завершение</Text>
                       </PropertyValue>
                     </PropertyValues>
                     <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
                     <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
@@ -3058,6 +3191,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -3095,6 +3229,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -3130,6 +3265,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -3151,6 +3287,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId>0</SelectedOptionId>
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -3172,6 +3309,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -3183,6 +3321,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i319" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -3214,6 +3353,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -3250,6 +3390,7 @@ STATE 5: Завершение</Text>
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -3285,6 +3426,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId>0</SelectedOptionId>
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -3296,6 +3438,7 @@ STATE 5: Завершение</Text>
                                 <Parent z:Ref="i343" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -3327,6 +3470,7 @@ STATE 5: Завершение</Text>
                                       </PropertyValue>
                                     </PropertyValues>
                                     <SelectedOptionId i:nil="true" />
+                                    <AutoCloseMode>None</AutoCloseMode>
                                     <EnableStatus>true</EnableStatus>
                                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                     <RetryCount>-1</RetryCount>
@@ -3347,6 +3491,7 @@ STATE 5: Завершение</Text>
                                   </PropertyValue>
                                 </PropertyValues>
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -3359,6 +3504,7 @@ STATE 5: Завершение</Text>
                                 <Parent z:Ref="i343" />
                                 <PropertyValues />
                                 <SelectedOptionId i:nil="true" />
+                                <AutoCloseMode>None</AutoCloseMode>
                                 <EnableStatus>true</EnableStatus>
                                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                                 <RetryCount>-1</RetryCount>
@@ -3379,6 +3525,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -3408,6 +3555,7 @@ STATE 5: Завершение</Text>
                               </PropertyValue>
                             </PropertyValues>
                             <SelectedOptionId i:nil="true" />
+                            <AutoCloseMode>None</AutoCloseMode>
                             <EnableStatus>true</EnableStatus>
                             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                             <RetryCount>-1</RetryCount>
@@ -3419,6 +3567,7 @@ STATE 5: Завершение</Text>
                         <Parent z:Ref="i319" />
                         <PropertyValues />
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -3430,6 +3579,7 @@ STATE 5: Завершение</Text>
                     <Parent z:Ref="i297" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
                     <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
@@ -3441,6 +3591,7 @@ STATE 5: Завершение</Text>
                 <Parent z:Ref="i50" />
                 <PropertyValues />
                 <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
@@ -3461,6 +3612,7 @@ STATE 5: Завершение</Text>
               </PropertyValue>
             </PropertyValues>
             <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
@@ -3489,6 +3641,7 @@ STATE 5: Завершение</Text>
           </PropertyValue>
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -3500,6 +3653,7 @@ STATE 5: Завершение</Text>
     <Parent i:nil="true" />
     <PropertyValues />
     <SelectedOptionId i:nil="true" />
+    <AutoCloseMode>None</AutoCloseMode>
     <EnableStatus>true</EnableStatus>
     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
     <RetryCount>-1</RetryCount>
@@ -3550,6 +3704,12 @@ STATE 5: Завершение</Text>
       <TypeString>System.Int32</TypeString>
     </Parameter>
   </Params>
+  <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+    <d2p1:_Build>4</d2p1:_Build>
+    <d2p1:_Major>2</d2p1:_Major>
+    <d2p1:_Minor>27</d2p1:_Minor>
+    <d2p1:_Revision>0</d2p1:_Revision>
+  </PlatformVersion>
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
   <Version i:nil="true" />

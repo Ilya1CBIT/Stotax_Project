@@ -11,6 +11,7 @@
         <Parent z:Ref="i2" />
         <PropertyValues />
         <SelectedOptionId i:nil="true" />
+        <IsCollapsed>false</IsCollapsed>
         <Text>Описание:
 Скрипт предназначен для выполнения подготовительных общих действий, которые необходимо сделать перед стартом обработки 
 всех транзакций (Process.pix). В PreProcess.pix  можно выполнять вход во все системы, участвующие в процессе, а также 
@@ -48,7 +49,8 @@
                       </PropertyValue>
                     </PropertyValues>
                     <SelectedOptionId>0</SelectedOptionId>
-                    <EnableStatus>true</EnableStatus>
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>false</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
                     <Text></Text>
@@ -69,7 +71,8 @@
                       </PropertyValue>
                     </PropertyValues>
                     <SelectedOptionId>0</SelectedOptionId>
-                    <EnableStatus>true</EnableStatus>
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>false</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
                     <Text></Text>
@@ -405,7 +408,8 @@
                       </PropertyValue>
                     </PropertyValues>
                     <SelectedOptionId>0</SelectedOptionId>
-                    <EnableStatus>true</EnableStatus>
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>false</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
                     <Text></Text>
@@ -442,7 +446,8 @@
                       </PropertyValue>
                     </PropertyValues>
                     <SelectedOptionId>0</SelectedOptionId>
-                    <EnableStatus>true</EnableStatus>
+                    <AutoCloseMode>None</AutoCloseMode>
+                    <EnableStatus>false</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
                     <Text></Text>
@@ -453,6 +458,7 @@
                 <Parent z:Ref="i5" />
                 <PropertyValues />
                 <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
@@ -464,6 +470,7 @@
             <Parent z:Ref="i4" />
             <PropertyValues />
             <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
@@ -499,6 +506,7 @@
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -554,6 +562,7 @@
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -583,6 +592,7 @@
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId>1</SelectedOptionId>
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -594,6 +604,7 @@
                     <Parent z:Ref="i56" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
                     <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
@@ -625,6 +636,7 @@
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -680,6 +692,7 @@
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId i:nil="true" />
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -709,6 +722,7 @@
                           </PropertyValue>
                         </PropertyValues>
                         <SelectedOptionId>0</SelectedOptionId>
+                        <AutoCloseMode>None</AutoCloseMode>
                         <EnableStatus>true</EnableStatus>
                         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                         <RetryCount>-1</RetryCount>
@@ -720,6 +734,7 @@
                     <Parent z:Ref="i56" />
                     <PropertyValues />
                     <SelectedOptionId i:nil="true" />
+                    <AutoCloseMode>None</AutoCloseMode>
                     <EnableStatus>true</EnableStatus>
                     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                     <RetryCount>-1</RetryCount>
@@ -740,6 +755,7 @@
                   </PropertyValue>
                 </PropertyValues>
                 <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
                 <EnableStatus>true</EnableStatus>
                 <ExceptionHandlingMode>Default</ExceptionHandlingMode>
                 <RetryCount>-1</RetryCount>
@@ -776,6 +792,7 @@
               </PropertyValue>
             </PropertyValues>
             <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
@@ -788,6 +805,7 @@
             <Parent z:Ref="i4" />
             <PropertyValues />
             <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
             <EnableStatus>true</EnableStatus>
             <ExceptionHandlingMode>Default</ExceptionHandlingMode>
             <RetryCount>-1</RetryCount>
@@ -799,6 +817,7 @@
         <Parent z:Ref="i2" />
         <PropertyValues />
         <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
         <EnableStatus>true</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
@@ -810,6 +829,7 @@
     <Parent i:nil="true" />
     <PropertyValues />
     <SelectedOptionId i:nil="true" />
+    <AutoCloseMode>None</AutoCloseMode>
     <EnableStatus>true</EnableStatus>
     <ExceptionHandlingMode>Default</ExceptionHandlingMode>
     <RetryCount>-1</RetryCount>
@@ -836,6 +856,12 @@
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Security.SecureString, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
   </Params>
+  <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+    <d2p1:_Build>4</d2p1:_Build>
+    <d2p1:_Major>2</d2p1:_Major>
+    <d2p1:_Minor>27</d2p1:_Minor>
+    <d2p1:_Revision>0</d2p1:_Revision>
+  </PlatformVersion>
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params" />
   <Version i:nil="true" />

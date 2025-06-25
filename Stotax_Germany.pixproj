@@ -53,15 +53,23 @@
     </ProjectFileItem>
     <ProjectFileItem z:Id="i14">
       <IsMain>false</IsMain>
-      <Path>StotaxInteractions.pix</Path>
+      <Path>BrowserInteractions.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i15">
       <IsMain>false</IsMain>
-      <Path>BrowserInteractions.pix</Path>
+      <Path>PdfConvert.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i16">
       <IsMain>false</IsMain>
-      <Path>PdfConvert.pix</Path>
+      <Path>DateTest.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i17">
+      <IsMain>false</IsMain>
+      <Path>StotaxPreparations.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i18">
+      <IsMain>false</IsMain>
+      <Path>StotaxInteractions.pix</Path>
     </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
