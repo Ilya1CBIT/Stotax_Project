@@ -71,6 +71,22 @@
       <IsMain>false</IsMain>
       <Path>StotaxInteractions.pix</Path>
     </ProjectFileItem>
+    <ProjectFileItem z:Id="i19">
+      <IsMain>false</IsMain>
+      <Path>Konten_Kontenblatt_10121_202412.xls</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i20">
+      <IsMain>false</IsMain>
+      <Path>MasterFileCreation.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i21">
+      <IsMain>false</IsMain>
+      <Path>Prompt.txt</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i22">
+      <IsMain>false</IsMain>
+      <Path>Readme.md</Path>
+    </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
   <Name>Stotax_Germany</Name>
