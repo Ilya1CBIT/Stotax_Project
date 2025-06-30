@@ -87,6 +87,10 @@
       <IsMain>false</IsMain>
       <Path>Readme.md</Path>
     </ProjectFileItem>
+    <ProjectFileItem z:Id="i23">
+      <IsMain>false</IsMain>
+      <Path>Table_Fill.pix</Path>
+    </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />
   <Name>Stotax_Germany</Name>
@@ -104,6 +108,7 @@
     <d2p1:string>System.Linq</d2p1:string>
     <d2p1:string>System.Data</d2p1:string>
     <d2p1:string>System.Xml.Linq</d2p1:string>
+    <d2p1:string>System.ArrayExtensions</d2p1:string>
   </ProjectNamespaces>
   <Version xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
     <d2p1:_Build>-1</d2p1:_Build>

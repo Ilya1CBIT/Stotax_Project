@@ -59,364 +59,100 @@
         </PropertyValues>
         <SelectedOptionId>0</SelectedOptionId>
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>true</EnableStatus>
+        <EnableStatus>false</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
         <_activityFullName>Activities.Files.GetListFilesOrCatalogs</_activityFullName>
       </AbstractStep>
       <AbstractStep z:Id="i9" i:type="ExecutedStep">
-        <Childs>
-          <AbstractStep z:Id="i10" i:type="ExecutedStep">
-            <Childs />
-            <Id>d1c847bc-41b1-47ca-864c-8422c720fa14</Id>
-            <Parent z:Ref="i9" />
-            <PropertyValues>
-              <PropertyValue z:Id="i11">
-                <PropertyName>IncomingString</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>file</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i12">
-                <PropertyName>RegExpression</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>@"[^\\/]+(?=\.pdf$)"</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i13">
-                <PropertyName>Result</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>bool_isPdf</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-            </PropertyValues>
-            <SelectedOptionId>0</SelectedOptionId>
-            <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>true</EnableStatus>
-            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-            <RetryCount>-1</RetryCount>
-            <Text></Text>
-            <_activityFullName>Activities.Strings.RegEx</_activityFullName>
-          </AbstractStep>
-          <AbstractStep z:Id="i14" i:type="ExecutedStep">
-            <Childs>
-              <AbstractStep z:Id="i15" i:type="ExecutedStep">
-                <Childs />
-                <Id>f646bf65-167a-4407-854e-180dfbb61f33</Id>
-                <Parent z:Ref="i14" />
-                <PropertyValues />
-                <SelectedOptionId i:nil="true" />
-                <AutoCloseMode>None</AutoCloseMode>
-                <EnableStatus>true</EnableStatus>
-                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                <RetryCount>-1</RetryCount>
-                <Text></Text>
-                <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
-              </AbstractStep>
-              <AbstractStep z:Id="i16" i:type="ExecutedStep">
-                <Childs>
-                  <AbstractStep z:Id="i17" i:type="ExecutedStep">
-                    <Childs />
-                    <Id>b186e046-7fb4-4835-a470-3186a7c5fda4</Id>
-                    <Parent z:Ref="i16" />
-                    <PropertyValues />
-                    <SelectedOptionId i:nil="true" />
-                    <AutoCloseMode>None</AutoCloseMode>
-                    <EnableStatus>true</EnableStatus>
-                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                    <RetryCount>-1</RetryCount>
-                    <Text></Text>
-                    <_activityFullName>BR.Core.Base.ContinueLoop</_activityFullName>
-                  </AbstractStep>
-                </Childs>
-                <Id>b51fc485-2ec8-4fe4-bb03-89d6f2f3d035</Id>
-                <Parent z:Ref="i14" />
-                <PropertyValues />
-                <SelectedOptionId i:nil="true" />
-                <AutoCloseMode>None</AutoCloseMode>
-                <EnableStatus>true</EnableStatus>
-                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                <RetryCount>-1</RetryCount>
-                <Text></Text>
-                <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
-              </AbstractStep>
-            </Childs>
-            <Id>c6447439-c0b4-4123-89ac-7d3a24c0acbc</Id>
-            <Parent z:Ref="i9" />
-            <PropertyValues>
-              <PropertyValue z:Id="i18">
-                <PropertyName>Condition</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>bool_isPdf</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-            </PropertyValues>
-            <SelectedOptionId i:nil="true" />
-            <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>true</EnableStatus>
-            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-            <RetryCount>-1</RetryCount>
-            <Text></Text>
-            <_activityFullName>BR.Core.Base.If</_activityFullName>
-          </AbstractStep>
-          <AbstractStep z:Id="i19" i:type="ExecutedStep">
-            <Childs />
-            <Id>41c27b3a-8179-4a58-b409-c3f6d3b4f113</Id>
-            <Parent z:Ref="i9" />
-            <PropertyValues>
-              <PropertyValue z:Id="i20">
-                <PropertyName>IncomingString</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>file</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i21">
-                <PropertyName>RegExpression</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>@"[^\\/]+(?=\.[^\\/]+$)"</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i22">
-                <PropertyName>Result</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression></_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i23">
-                <PropertyName>ResultList</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>str_fileName</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-            </PropertyValues>
-            <SelectedOptionId>1</SelectedOptionId>
-            <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>true</EnableStatus>
-            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-            <RetryCount>-1</RetryCount>
-            <Text></Text>
-            <_activityFullName>Activities.Strings.RegEx</_activityFullName>
-          </AbstractStep>
-          <AbstractStep z:Id="i24" i:type="ExecutedStep">
-            <Childs />
-            <Id>86518233-f30b-47eb-b026-f6b6dbd34e77</Id>
-            <Parent z:Ref="i9" />
-            <PropertyValues>
-              <PropertyValue z:Id="i25">
-                <PropertyName>Path</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>file</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i26">
-                <PropertyName>Result</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>str_extractedText</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-            </PropertyValues>
-            <SelectedOptionId>0</SelectedOptionId>
-            <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>true</EnableStatus>
-            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-            <RetryCount>-1</RetryCount>
-            <Text></Text>
-            <_activityFullName>Activities.PDF.ReadPDF</_activityFullName>
-          </AbstractStep>
-          <AbstractStep z:Id="i27" i:type="ExecutedStep">
-            <Childs />
-            <Id>d440d550-5ca0-40e5-bd72-99f46ccc7ccb</Id>
-            <Parent z:Ref="i9" />
-            <PropertyValues>
-              <PropertyValue z:Id="i28">
-                <PropertyName>NewFolderPath</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>@"ExctractedPhotos\" + str_fileName[0]</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-            </PropertyValues>
-            <SelectedOptionId i:nil="true" />
-            <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>true</EnableStatus>
-            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-            <RetryCount>-1</RetryCount>
-            <Text></Text>
-            <_activityFullName>Activities.Files.CreateFolder</_activityFullName>
-          </AbstractStep>
-          <AbstractStep z:Id="i29" i:type="ExecutedStep">
-            <Childs>
-              <AbstractStep z:Id="i30" i:type="ExecutedStep">
-                <Childs>
-                  <AbstractStep z:Id="i31" i:type="ExecutedStep">
-                    <Childs />
-                    <Id>9760a45c-afa0-4fc1-94e9-88e434c8eedf</Id>
-                    <Parent z:Ref="i30" />
-                    <PropertyValues>
-                      <PropertyValue z:Id="i32">
-                        <PropertyName>Path</PropertyName>
-                        <_dataType>Expression</_dataType>
-                        <_expression>file</_expression>
-                        <_screenShotBase64 i:nil="true" />
-                        <_value i:nil="true" />
-                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                      </PropertyValue>
-                      <PropertyValue z:Id="i33">
-                        <PropertyName>PathTo</PropertyName>
-                        <_dataType>Expression</_dataType>
-                        <_expression>@"ExctractedPhotos\" + str_fileName[0]</_expression>
-                        <_screenShotBase64 i:nil="true" />
-                        <_value i:nil="true" />
-                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                      </PropertyValue>
-                      <PropertyValue z:Id="i34">
-                        <PropertyName>Dpi</PropertyName>
-                        <_dataType>Expression</_dataType>
-                        <_expression>300</_expression>
-                        <_screenShotBase64 i:nil="true" />
-                        <_value i:nil="true" />
-                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                      </PropertyValue>
-                    </PropertyValues>
-                    <SelectedOptionId i:nil="true" />
-                    <AutoCloseMode>None</AutoCloseMode>
-                    <EnableStatus>true</EnableStatus>
-                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                    <RetryCount>-1</RetryCount>
-                    <Text></Text>
-                    <_activityFullName>Activities.PDF.ConvertPDFasImage</_activityFullName>
-                  </AbstractStep>
-                </Childs>
-                <Id>fa528d5c-25d6-4767-b8ee-bf12860718cc</Id>
-                <Parent z:Ref="i29" />
-                <PropertyValues />
-                <SelectedOptionId i:nil="true" />
-                <AutoCloseMode>None</AutoCloseMode>
-                <EnableStatus>true</EnableStatus>
-                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                <RetryCount>-1</RetryCount>
-                <Text></Text>
-                <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
-              </AbstractStep>
-              <AbstractStep z:Id="i35" i:type="ExecutedStep">
-                <Childs>
-                  <AbstractStep z:Id="i36" i:type="ExecutedStep">
-                    <Childs />
-                    <Id>55079cae-83e6-43d6-ac8c-b90ca72d5faf</Id>
-                    <Parent z:Ref="i35" />
-                    <PropertyValues>
-                      <PropertyValue z:Id="i37">
-                        <PropertyName>PDFPath</PropertyName>
-                        <_dataType>Expression</_dataType>
-                        <_expression>file</_expression>
-                        <_screenShotBase64 i:nil="true" />
-                        <_value i:nil="true" />
-                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                      </PropertyValue>
-                      <PropertyValue z:Id="i38">
-                        <PropertyName>PathTo</PropertyName>
-                        <_dataType>Expression</_dataType>
-                        <_expression>@"ExctractedPhotos\" + str_fileName[0]</_expression>
-                        <_screenShotBase64 i:nil="true" />
-                        <_value i:nil="true" />
-                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                      </PropertyValue>
-                      <PropertyValue z:Id="i39">
-                        <PropertyName>FormatOutPut</PropertyName>
-                        <_dataType>Value</_dataType>
-                        <_expression i:nil="true" />
-                        <_screenShotBase64 i:nil="true" />
-                        <_value xmlns:d13p1="http://schemas.datacontract.org/2004/07/Activities.PDF" i:type="d13p1:FormatImageType">png</_value>
-                        <_xpathSettings xmlns:d13p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-                      </PropertyValue>
-                    </PropertyValues>
-                    <SelectedOptionId i:nil="true" />
-                    <AutoCloseMode>None</AutoCloseMode>
-                    <EnableStatus>true</EnableStatus>
-                    <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                    <RetryCount>-1</RetryCount>
-                    <Text></Text>
-                    <_activityFullName>Activities.PDF.GetImages</_activityFullName>
-                  </AbstractStep>
-                </Childs>
-                <Id>346a731a-7bd7-4153-9b14-5b26364f7500</Id>
-                <Parent z:Ref="i29" />
-                <PropertyValues />
-                <SelectedOptionId i:nil="true" />
-                <AutoCloseMode>None</AutoCloseMode>
-                <EnableStatus>true</EnableStatus>
-                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-                <RetryCount>-1</RetryCount>
-                <Text></Text>
-                <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
-              </AbstractStep>
-            </Childs>
-            <Id>4072bca4-ef69-49cb-a09b-94789a5a3577</Id>
-            <Parent z:Ref="i9" />
-            <PropertyValues>
-              <PropertyValue z:Id="i40">
-                <PropertyName>Condition</PropertyName>
-                <_dataType>Expression</_dataType>
-                <_expression>str_extractedText.Count() &gt;= 100</_expression>
-                <_screenShotBase64 i:nil="true" />
-                <_value i:nil="true" />
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-            </PropertyValues>
-            <SelectedOptionId i:nil="true" />
-            <AutoCloseMode>None</AutoCloseMode>
-            <EnableStatus>true</EnableStatus>
-            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-            <RetryCount>-1</RetryCount>
-            <Text></Text>
-            <_activityFullName>BR.Core.Base.If</_activityFullName>
-          </AbstractStep>
-        </Childs>
-        <Id>7954e76f-9684-4842-bed1-b1ca5253fba2</Id>
+        <Childs />
+        <Id>d1c847bc-41b1-47ca-864c-8422c720fa14</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i41">
-            <PropertyName>Collection</PropertyName>
+          <PropertyValue z:Id="i10">
+            <PropertyName>IncomingString</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>lst_filePaths</_expression>
+            <_expression>in_str_file</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i42">
-            <PropertyName>Iterator</PropertyName>
+          <PropertyValue z:Id="i11">
+            <PropertyName>RegExpression</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>file</_expression>
+            <_expression>@"[^\\/]+(?=\.pdf$)"</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i43">
-            <PropertyName>Counter</PropertyName>
+          <PropertyValue z:Id="i12">
+            <PropertyName>Result</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression></_expression>
+            <_expression>bool_isPdf</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>0</SelectedOptionId>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Strings.RegEx</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i13" i:type="ExecutedStep">
+        <Childs>
+          <AbstractStep z:Id="i14" i:type="ExecutedStep">
+            <Childs />
+            <Id>f646bf65-167a-4407-854e-180dfbb61f33</Id>
+            <Parent z:Ref="i13" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i15" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i16" i:type="ExecutedStep">
+                <Childs />
+                <Id>b186e046-7fb4-4835-a470-3186a7c5fda4</Id>
+                <Parent z:Ref="i15" />
+                <PropertyValues />
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>BR.Core.Base.ContinueLoop</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <Id>b51fc485-2ec8-4fe4-bb03-89d6f2f3d035</Id>
+            <Parent z:Ref="i13" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+          </AbstractStep>
+        </Childs>
+        <Id>c6447439-c0b4-4123-89ac-7d3a24c0acbc</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i17">
+            <PropertyName>Condition</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>bool_isPdf</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -428,25 +164,33 @@
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
-        <_activityFullName>BR.Core.Base.LoopForEach</_activityFullName>
+        <_activityFullName>BR.Core.Base.If</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i44" i:type="ExecutedStep">
+      <AbstractStep z:Id="i18" i:type="ExecutedStep">
         <Childs />
-        <Id>70057b52-a409-46fc-9420-331702962887</Id>
+        <Id>41c27b3a-8179-4a58-b409-c3f6d3b4f113</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i45">
-            <PropertyName>DirPath</PropertyName>
+          <PropertyValue z:Id="i19">
+            <PropertyName>IncomingString</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>@"ExctractedPhotos"</_expression>
+            <_expression>in_str_file</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i46">
-            <PropertyName>ListFilesOrCatalogs</PropertyName>
+          <PropertyValue z:Id="i20">
+            <PropertyName>RegExpression</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>lst_fileFolderPaths</_expression>
+            <_expression>@"[^\\/]+(?=\.[^\\/]+$)"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i21">
+            <PropertyName>Result</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression></_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -458,16 +202,263 @@
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
+        <_activityFullName>Activities.Strings.RegEx</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i22" i:type="ExecutedStep">
+        <Childs />
+        <Id>86518233-f30b-47eb-b026-f6b6dbd34e77</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i23">
+            <PropertyName>Path</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>in_str_file</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i24">
+            <PropertyName>Result</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>str_extractedText</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>0</SelectedOptionId>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.PDF.ReadPDF</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i25" i:type="ExecutedStep">
+        <Childs />
+        <Id>d440d550-5ca0-40e5-bd72-99f46ccc7ccb</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i26">
+            <PropertyName>NewFolderPath</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>@"ExctractedPhotos\" + lst_fileName[0]</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>Activities.Files.CreateFolder</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i27" i:type="ExecutedStep">
+        <Childs>
+          <AbstractStep z:Id="i28" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i29" i:type="ExecutedStep">
+                <Childs />
+                <Id>9760a45c-afa0-4fc1-94e9-88e434c8eedf</Id>
+                <Parent z:Ref="i28" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i30">
+                    <PropertyName>Path</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>in_str_file</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i31">
+                    <PropertyName>PathTo</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>@"ExctractedPhotos\" + lst_fileName[0]</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i32">
+                    <PropertyName>Dpi</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>300</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.PDF.ConvertPDFasImage</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <Id>fa528d5c-25d6-4767-b8ee-bf12860718cc</Id>
+            <Parent z:Ref="i27" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.IfTrue</_activityFullName>
+          </AbstractStep>
+          <AbstractStep z:Id="i33" i:type="ExecutedStep">
+            <Childs>
+              <AbstractStep z:Id="i34" i:type="ExecutedStep">
+                <Childs />
+                <Id>55079cae-83e6-43d6-ac8c-b90ca72d5faf</Id>
+                <Parent z:Ref="i33" />
+                <PropertyValues>
+                  <PropertyValue z:Id="i35">
+                    <PropertyName>PDFPath</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>in_str_file</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i36">
+                    <PropertyName>PathTo</PropertyName>
+                    <_dataType>Expression</_dataType>
+                    <_expression>@"ExctractedPhotos\" + lst_fileName[0]</_expression>
+                    <_screenShotBase64 i:nil="true" />
+                    <_value i:nil="true" />
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                  <PropertyValue z:Id="i37">
+                    <PropertyName>FormatOutPut</PropertyName>
+                    <_dataType>Value</_dataType>
+                    <_expression i:nil="true" />
+                    <_screenShotBase64 i:nil="true" />
+                    <_value xmlns:d11p1="http://schemas.datacontract.org/2004/07/Activities.PDF" i:type="d11p1:FormatImageType">png</_value>
+                    <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+                  </PropertyValue>
+                </PropertyValues>
+                <SelectedOptionId i:nil="true" />
+                <AutoCloseMode>None</AutoCloseMode>
+                <EnableStatus>true</EnableStatus>
+                <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+                <RetryCount>-1</RetryCount>
+                <Text></Text>
+                <_activityFullName>Activities.PDF.GetImages</_activityFullName>
+              </AbstractStep>
+            </Childs>
+            <Id>346a731a-7bd7-4153-9b14-5b26364f7500</Id>
+            <Parent z:Ref="i27" />
+            <PropertyValues />
+            <SelectedOptionId i:nil="true" />
+            <AutoCloseMode>None</AutoCloseMode>
+            <EnableStatus>true</EnableStatus>
+            <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+            <RetryCount>-1</RetryCount>
+            <Text></Text>
+            <_activityFullName>BR.Core.Base.IfFalse</_activityFullName>
+          </AbstractStep>
+        </Childs>
+        <Id>4072bca4-ef69-49cb-a09b-94789a5a3577</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i38">
+            <PropertyName>Condition</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>str_extractedText.Count() &gt;= 100</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>true</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.If</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i39" i:type="ExecutedStep">
+        <Childs />
+        <Id>7954e76f-9684-4842-bed1-b1ca5253fba2</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i40">
+            <PropertyName>Collection</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>lst_filePaths</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i41">
+            <PropertyName>Iterator</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>file</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i42">
+            <PropertyName>Counter</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression></_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId i:nil="true" />
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>false</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
+        <_activityFullName>BR.Core.Base.LoopForEach</_activityFullName>
+      </AbstractStep>
+      <AbstractStep z:Id="i43" i:type="ExecutedStep">
+        <Childs />
+        <Id>70057b52-a409-46fc-9420-331702962887</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues>
+          <PropertyValue z:Id="i44">
+            <PropertyName>DirPath</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>@"ExctractedPhotos"</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+          <PropertyValue z:Id="i45">
+            <PropertyName>ListFilesOrCatalogs</PropertyName>
+            <_dataType>Expression</_dataType>
+            <_expression>lst_fileFolderPaths</_expression>
+            <_screenShotBase64 i:nil="true" />
+            <_value i:nil="true" />
+            <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
+          </PropertyValue>
+        </PropertyValues>
+        <SelectedOptionId>1</SelectedOptionId>
+        <AutoCloseMode>None</AutoCloseMode>
+        <EnableStatus>false</EnableStatus>
+        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
+        <RetryCount>-1</RetryCount>
+        <Text></Text>
         <_activityFullName>Activities.Files.GetListFilesOrCatalogs</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i47" i:type="ExecutedStep">
+      <AbstractStep z:Id="i46" i:type="ExecutedStep">
         <Childs>
-          <AbstractStep z:Id="i48" i:type="ExecutedStep">
+          <AbstractStep z:Id="i47" i:type="ExecutedStep">
             <Childs />
             <Id>98e837d6-b690-4640-ba7b-0b99bc8dd979</Id>
-            <Parent z:Ref="i47" />
+            <Parent z:Ref="i46" />
             <PropertyValues>
-              <PropertyValue z:Id="i49">
+              <PropertyValue z:Id="i48">
                 <PropertyName>IncomingString</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>folderPath</_expression>
@@ -475,7 +466,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i50">
+              <PropertyValue z:Id="i49">
                 <PropertyName>RegExpression</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>@"[^\\/]+$"</_expression>
@@ -483,7 +474,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i51">
+              <PropertyValue z:Id="i50">
                 <PropertyName>Result</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>folderName</_expression>
@@ -491,7 +482,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i52">
+              <PropertyValue z:Id="i51">
                 <PropertyName>ResultList</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>folderName</_expression>
@@ -512,7 +503,7 @@
         <Id>ff9e9d9c-c61c-4aa3-af38-ab3d1d4d6f42</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i53">
+          <PropertyValue z:Id="i52">
             <PropertyName>Collection</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>lst_fileFolderPaths</_expression>
@@ -520,7 +511,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i54">
+          <PropertyValue z:Id="i53">
             <PropertyName>Iterator</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>folderPath</_expression>
@@ -528,7 +519,7 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i55">
+          <PropertyValue z:Id="i54">
             <PropertyName>Counter</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression></_expression>
@@ -539,13 +530,13 @@
         </PropertyValues>
         <SelectedOptionId i:nil="true" />
         <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>true</EnableStatus>
+        <EnableStatus>false</EnableStatus>
         <ExceptionHandlingMode>Default</ExceptionHandlingMode>
         <RetryCount>-1</RetryCount>
         <Text></Text>
         <_activityFullName>BR.Core.Base.LoopForEach</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i56" i:type="ExecutedStep">
+      <AbstractStep z:Id="i55" i:type="ExecutedStep">
         <Childs />
         <Id>6f040648-3e38-4509-9c79-6bc9f99f0129</Id>
         <Parent z:Ref="i2" />
@@ -573,12 +564,12 @@
   <Name>PdfConvert.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i57">
+    <Parameter z:Id="i56">
       <DefaultValueExpression></DefaultValueExpression>
-      <Description></Description>
-      <Name>NewParameter</Name>
+      <Description>Полный путь до рабочего файла</Description>
+      <Name>in_str_file</Name>
       <RunnerType>None</RunnerType>
-      <TypeString>System.Object</TypeString>
+      <TypeString>System.String</TypeString>
     </Parameter>
   </Params>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
@@ -589,22 +580,22 @@
   </PlatformVersion>
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params">
-    <d2p1:Variable z:Id="i58">
+    <d2p1:Variable z:Id="i57">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>lst_filePaths</d2p1:Name>
       <d2p1:TypeString>System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i59">
+    <d2p1:Variable z:Id="i58">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_extractedText</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i60">
+    <d2p1:Variable z:Id="i59">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
-      <d2p1:Name>str_fileName</d2p1:Name>
+      <d2p1:Name>lst_fileName</d2p1:Name>
       <d2p1:TypeString>System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</d2p1:TypeString>
     </d2p1:Variable>
   </Variables>
