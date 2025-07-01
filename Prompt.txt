@@ -18,7 +18,7 @@ COLUMN MEANINGS:
 * Purchase Receipt?: Is this document a purchase receipt?
 * Seller's Name: Company/entity name selling goods/services
 * Account Number: Any account number for seller or transaction
-* Document Date: Date document was issued
+* Document Date: Date document was issued in the format of plain text(ex. 26.02.2025 should written 26022025)
 * Gross Price: Price before taxes
 * Net Price: Final price including taxes
 * Taxes: Tax amount in currency
