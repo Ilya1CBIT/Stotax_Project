@@ -69,27 +69,27 @@
     </ProjectFileItem>
     <ProjectFileItem z:Id="i18">
       <IsMain>false</IsMain>
-      <Path>StotaxInteractions.pix</Path>
+      <Path>Konten_Kontenblatt_10121_202412.xls</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i19">
       <IsMain>false</IsMain>
-      <Path>Konten_Kontenblatt_10121_202412.xls</Path>
+      <Path>MasterFileCreation.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i20">
       <IsMain>false</IsMain>
-      <Path>MasterFileCreation.pix</Path>
+      <Path>Prompt.txt</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i21">
       <IsMain>false</IsMain>
-      <Path>Prompt.txt</Path>
+      <Path>Readme.md</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i22">
       <IsMain>false</IsMain>
-      <Path>Readme.md</Path>
+      <Path>Table_Fill.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i23">
       <IsMain>false</IsMain>
-      <Path>Table_Fill.pix</Path>
+      <Path>StotaxTransactionInsert.pix</Path>
     </ProjectFileItem>
   </Files>
   <MasterUploadId i:nil="true" />

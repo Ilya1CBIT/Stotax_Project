@@ -3488,7 +3488,7 @@
     <Text></Text>
     <_activityFullName>BR.Core.Base.Container</_activityFullName>
   </Logic>
-  <Name>StotaxInteractions.pix</Name>
+  <Name>StotaxTransactionInsert.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
     <Parameter z:Id="i380">
@@ -3519,13 +3519,6 @@
       <RunnerType>None</RunnerType>
       <TypeString>System.Boolean</TypeString>
     </Parameter>
-    <Parameter z:Id="i384">
-      <DefaultValueExpression></DefaultValueExpression>
-      <Description></Description>
-      <Name>out_lst_filePaths</Name>
-      <RunnerType>None</RunnerType>
-      <TypeString>System.Collections.Generic.List`1[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
-    </Parameter>
   </Params>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
     <d2p1:_Build>4</d2p1:_Build>
@@ -3535,19 +3528,19 @@
   </PlatformVersion>
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params">
-    <d2p1:Variable z:Id="i385">
+    <d2p1:Variable z:Id="i384">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>bool_noNewDocs</d2p1:Name>
       <d2p1:TypeString>System.Boolean</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i386">
+    <d2p1:Variable z:Id="i385">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>bool_hasNewDoc</d2p1:Name>
       <d2p1:TypeString>System.Boolean</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i387">
+    <d2p1:Variable z:Id="i386">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>lst_filePaths</d2p1:Name>
