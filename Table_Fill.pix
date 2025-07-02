@@ -1231,12 +1231,21 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i133" i:type="ExecutedStep">
+      <AbstractStep z:Id="i133" i:type="CommentStep">
+        <Childs />
+        <Id>db78f94b-8012-45d1-bbbb-4b97afff299f</Id>
+        <Parent z:Ref="i2" />
+        <PropertyValues />
+        <SelectedOptionId i:nil="true" />
+        <IsCollapsed>false</IsCollapsed>
+        <Text>Разделить на 3 варианта: если есть в мастере, если нет в мастере, надо ли сменить S или H</Text>
+      </AbstractStep>
+      <AbstractStep z:Id="i134" i:type="ExecutedStep">
         <Childs />
         <Id>0567d59c-0c5a-4050-8e32-9aafc2afcfd6</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i134">
+          <PropertyValue z:Id="i135">
             <PropertyName>Key</PropertyName>
             <_dataType>Value</_dataType>
             <_expression i:nil="true" />
@@ -1253,12 +1262,12 @@
         <Text></Text>
         <_activityFullName>Activities.Desktop.KeyboardSendHotkey</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i135" i:type="ExecutedStep">
+      <AbstractStep z:Id="i136" i:type="ExecutedStep">
         <Childs />
         <Id>e4391b7b-4ff6-4803-8591-fa0dd8e29012</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i136">
+          <PropertyValue z:Id="i137">
             <PropertyName>Count</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>40</_expression>
@@ -1275,7 +1284,7 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i137" i:type="ExecutedStep">
+      <AbstractStep z:Id="i138" i:type="ExecutedStep">
         <Childs />
         <Id>1a7457ca-e8b8-4604-81ad-01f4f89540db</Id>
         <Parent z:Ref="i2" />
@@ -1288,7 +1297,7 @@
         <Text></Text>
         <_activityFullName>Activities.Desktop.ClickElement</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i138" i:type="ExecutedStep">
+      <AbstractStep z:Id="i139" i:type="ExecutedStep">
         <Childs />
         <Id>9b346143-9a34-4863-8406-2e8ff429543a</Id>
         <Parent z:Ref="i2" />
@@ -1301,7 +1310,7 @@
         <Text></Text>
         <_activityFullName>Activities.Desktop.ClickElement</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i139" i:type="ExecutedStep">
+      <AbstractStep z:Id="i140" i:type="ExecutedStep">
         <Childs />
         <Id>ae0acaed-7567-4956-8b9a-81d2c35b01b8</Id>
         <Parent z:Ref="i2" />
@@ -1314,7 +1323,7 @@
         <Text></Text>
         <_activityFullName>Activities.Desktop.ClickElement</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i140" i:type="ExecutedStep">
+      <AbstractStep z:Id="i141" i:type="ExecutedStep">
         <Childs />
         <Id>ac6b829a-0796-4d15-83d0-d1f01b611560</Id>
         <Parent z:Ref="i2" />
@@ -1341,7 +1350,15 @@
   </Logic>
   <Name>Table_Fill.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-  <Params />
+  <Params>
+    <Parameter z:Id="i142">
+      <DefaultValueExpression></DefaultValueExpression>
+      <Description></Description>
+      <Name>out_dt_gptResponse</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.Data.DataTable</TypeString>
+    </Parameter>
+  </Params>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
     <d2p1:_Build>4</d2p1:_Build>
     <d2p1:_Major>2</d2p1:_Major>
@@ -1350,43 +1367,37 @@
   </PlatformVersion>
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params">
-    <d2p1:Variable z:Id="i141">
+    <d2p1:Variable z:Id="i143">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>dt_masterFile</d2p1:Name>
       <d2p1:TypeString>System.Data.DataTable</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i142">
-      <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
-      <d2p1:Description></d2p1:Description>
-      <d2p1:Name>dt_gptResponse</d2p1:Name>
-      <d2p1:TypeString>System.Data.DataTable</d2p1:TypeString>
-    </d2p1:Variable>
-    <d2p1:Variable z:Id="i143">
+    <d2p1:Variable z:Id="i144">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>bool_hasName</d2p1:Name>
       <d2p1:TypeString>System.Boolean</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i144">
+    <d2p1:Variable z:Id="i145">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_konto</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i145">
+    <d2p1:Variable z:Id="i146">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>bool_S</d2p1:Name>
       <d2p1:TypeString>System.Boolean</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i146">
+    <d2p1:Variable z:Id="i147">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_Umsatz</d2p1:Name>
       <d2p1:TypeString>System.String</d2p1:TypeString>
     </d2p1:Variable>
-    <d2p1:Variable z:Id="i147">
+    <d2p1:Variable z:Id="i148">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>str_Datum</d2p1:Name>
