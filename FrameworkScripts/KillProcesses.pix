@@ -37,7 +37,7 @@ chrome - Google Chrome</Text>
                   <PropertyValue z:Id="i7">
                     <PropertyName>Value</PropertyName>
                     <_dataType>Expression</_dataType>
-                    <_expression>new List&lt;String&gt;{"chrome", "excel"}</_expression>
+                    <_expression>new List&lt;String&gt;{"chrome", "excel", "Receiver.exe", "SelfService.exe" }</_expression>
                     <_screenShotBase64 i:nil="true" />
                     <_value i:nil="true" />
                     <_xpathSettings xmlns:d11p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -113,14 +113,6 @@ chrome - Google Chrome</Text>
             <Parent z:Ref="i11" />
             <PropertyValues>
               <PropertyValue z:Id="i13">
-                <PropertyName>OnlyCurrenUser</PropertyName>
-                <_dataType>Value</_dataType>
-                <_expression i:nil="true" />
-                <_screenShotBase64 i:nil="true" />
-                <_value xmlns:d9p1="http://www.w3.org/2001/XMLSchema" i:type="d9p1:boolean">true</_value>
-                <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
-              </PropertyValue>
-              <PropertyValue z:Id="i14">
                 <PropertyName>ProcessName</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>process</_expression>
@@ -141,7 +133,7 @@ chrome - Google Chrome</Text>
         <Id>85c5554c-cc91-4480-8b6b-0dd7997f07ee</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i15">
+          <PropertyValue z:Id="i14">
             <PropertyName>Collection</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>list_processesToKill</_expression>
@@ -149,7 +141,7 @@ chrome - Google Chrome</Text>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i16">
+          <PropertyValue z:Id="i15">
             <PropertyName>Iterator</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>process</_expression>
@@ -157,7 +149,7 @@ chrome - Google Chrome</Text>
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i17">
+          <PropertyValue z:Id="i16">
             <PropertyName>Counter</PropertyName>
             <_dataType>Value</_dataType>
             <_expression></_expression>
@@ -191,7 +183,7 @@ chrome - Google Chrome</Text>
     <d2p1:string>PIX.Core.Exceptions</d2p1:string>
   </Namespaces>
   <Params>
-    <Parameter z:Id="i18">
+    <Parameter z:Id="i17">
       <DefaultValueExpression>new List&lt;String&gt;{}</DefaultValueExpression>
       <Description></Description>
       <Name>list_processesToKill</Name>

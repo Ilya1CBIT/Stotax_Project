@@ -36,7 +36,8 @@
                         <xs:element name="DataTableSettingsTable">
                           <xs:complexType>
                             <xs:sequence>
-                              <xs:element name="Dates" type="xs:string" minOccurs="0" />
+                              <xs:element name="Month" type="xs:string" minOccurs="0" />
+                              <xs:element name="Year" type="xs:string" minOccurs="0" />
                             </xs:sequence>
                           </xs:complexType>
                         </xs:element>
@@ -265,7 +266,8 @@
                             <_expression i:nil="true" />
                             <_screenShotBase64 i:nil="true" />
                             <_value xmlns:d15p1="http://www.w3.org/2001/XMLSchema" i:type="d15p1:string">var row = dt_transactions.NewRow();
-row["Dates"] = iterator.ToString("MM.yyyy");
+row["Month"] = iterator.ToString("MM");
+row["Year"] = iterator.ToString("yyyy");            
 dt_transactions.Rows.Add(row);
 iterator = iterator.AddMonths(1);
 </_value>
