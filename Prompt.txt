@@ -31,8 +31,8 @@ If a period is shown (e.g., multiple dates for flights, hotel stay), write the r
 If multiple segments/services, use the earliest and latest service dates.
 If no service date is mentioned, write ‘could not extract’.
 Examples:
-If invoice date is 27.03.2025, but flight is on 21.08.2025 → ‘Leistungszeitraum’: 21.08.2025.
-If hotel stay from 10.06.2025 to 15.06.2025 → ‘Leistungszeitraum’: 10.06.2025–15.06.2025.
+If invoice date is 27/03/2025, but flight is on 21/08/2025 → ‘Leistungszeitraum’: 21/08/2025(format dd/MM/yyyy).
+If hotel stay from 10.06.2025 to 15.06.2025 → ‘Leistungszeitraum’: 10/06/2025–15/06/2025.
 If only invoice date is present → ‘Leistungszeitraum’: could not extract."
 
 
