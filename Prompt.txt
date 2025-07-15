@@ -1,7 +1,7 @@
-@"Extract information from all uploaded documents and create a table with these exact columns:Purchase Receipt?, Seller's Name, Account Number, Document Date, Gross Price, Net Price, Taxes, Tax Percent, Leistungszeitraum
+@"Extract information from all uploaded documents and create a table with these exact columns:Purchase Receipt, Seller Name, Account Number, Document Date, Gross Price, Net Price, Taxes, Tax Percent, Leistungszeitraum
 RULES:
 1. Write ONLY the table as your response - no other text
-2. Purchase Receipt?: Write ‘yes’ or ‘no’ only
+2. Purchase Receipt: Write ‘yes’ or ‘no’ only
 3. Tax Percent: Write number only (no ‘%’ symbol)
 4. You may perform mathematical calculations if needed
 5. Do NOT make assumptions about missing information
@@ -17,7 +17,7 @@ TAX VALIDATION:
 COLUMN MEANINGS:
 * Purchase Receipt?: Is this document a purchase receipt?
 * Seller's Name: Company/entity name selling goods/services
-* Account Number: Any account number for seller or transaction
+* Account Number: Any account number for seller or transaction(it may be writted in German, ex. Beleg-Nr)
 * Document Date: Date document was issued in the format of plain text(ex. 26.02.2025 should be written  as 26022025)
 * Gross Price: Price before taxes
 * Net Price: Final price including taxes
@@ -34,8 +34,3 @@ Examples:
 If invoice date is 27/03/2025, but flight is on 21/08/2025 → ‘Leistungszeitraum’: 21/08/2025(format dd/MM/yyyy).
 If hotel stay from 10.06.2025 to 15.06.2025 → ‘Leistungszeitraum’: 10/06/2025–15/06/2025.
 If only invoice date is present → ‘Leistungszeitraum’: null"
-
-
-| Purchase Receipt? | Seller's Name              | Account Number    | Document Date | Gross Price | Net Price | Taxes             | Tax Percent       | Leistungszeitraum       |
-| ----------------- | -------------------------- | ----------------- | ------------- | ----------- | --------- | ----------------- | ----------------- | ----------------------- |
-| yes               | Invia Flights Germany GmbH | could not extract | 07.07.2022    | 670,44 €    | 670,44 €  | could not extract | could not extract | 27.07.2022 – 28.07.2022 |
